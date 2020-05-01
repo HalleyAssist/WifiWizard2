@@ -19,7 +19,11 @@
     "url": "https://github.com/HalleyAssist/wifiwizard2/issues"
   },
   "engines": {
-    "cordovaDependencies": ">=5.0.0"
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=5.0.0"
+      }
+    }
   },
   "homepage": "https://github.com/HalleyAssist/wifiwizard2#readme",
   "keywords": [
